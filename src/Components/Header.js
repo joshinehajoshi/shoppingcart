@@ -1,17 +1,16 @@
 import React from 'react';
 import { Navbar, Container } from 'react-bootstrap';
-import "../css/header.css";
 
 function Header() {
     return (
         <div>
             <Navbar className="Navbar">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+                    <Navbar.Brand href="#home">Shopping Cart</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                        Signed in as: <a href="#login">Mark Otto</a>
+                    <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
                     </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
